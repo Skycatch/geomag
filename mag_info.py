@@ -49,6 +49,8 @@ def print_matrix(matrix, rows, columns):
 print("#ifndef _GEO_MAG_GENERATED_H_")
 print("#define _GEO_MAG_GENERATED_H_")
 print("")
+print("#include <stdint.h>")
+print("")
 
 # Print defines
 print("#define SAMPLING_RES "     + str(resolution))
